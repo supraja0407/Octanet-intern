@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ebf2e6;
+    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+}
+nav{
+    width: 100%;
+    background-color: #aed78c;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.15% 3%;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+}
+.container nav img{
+    height: 4%;
+    width: 5%;
+    margin-left: 0.75%;
+}
+.container nav span{
+    letter-spacing: 0.04em;
+    font-size: 2.10em;
+    font-weight: bold;
+    color: #354907;
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 8%;
+}
+ul li{
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    padding: 2%;
+}
+ul li a{
+    text-decoration: none;
+    color: #8c6a27;
+    font-size: 1.50em;
+    transition: 0.5s ease;
+}
+ul li a:hover{
+    color: #010500;
+}
+.button{
+    letter-spacing: 0.1em;
+    font-size: 1.40em;
+    padding: 0.70%;
+    background-color: #147303;
+    color: #fff;
+    border-radius: 5%;
+    transition: 0.5s ease;
+}
+.button:hover{
+    background-color: #183817;
+}
+.content h1{
+    font-weight: bolder;
+    word-spacing: 0.11em;
+    letter-spacing: 0.03em;
+    margin-top: 3.75%;
+    margin-left: 12%;
+    margin-bottom: 2%;
+    width: 35%;
+    height: 10%;
+    font-size: 4em;
+    color: #409130;
+}
+.content span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #20471e;
+}
+.content p{
+    font-weight: lighter;
+    margin-left: 12%;
+    margin-bottom: 3%;
+    font-size: 1.25em;
+    font-family: 'Poppins', sans-serif;
+    color: #18460f;
+    word-spacing: 0.17em;
+    letter-spacing: 0.1em;
+}
+.btn1{
+    margin-left: 12%;
+    font-size: 1.40em;
+    padding: 0.75%;
+    letter-spacing: 0.1em;
+    background-color: #3f7a33; 
+    color: #fff;
+    border-top-left-radius: 1.50em;
+    border-bottom-left-radius: 1.50em;
+    border-top-right-radius: 1.50em;
+    border-bottom-right-radius: 1.50em;
+    transition: 0.5s ease;
+}
+.btn1:hover{
+    background-color: #183817;
+}
+.btn2{
+    margin-left: 3%;
+    font-size: 1.40em;
+    letter-spacing: 0.1em;
+    padding: 0.75%;
+    background-color: #3f7a33;
+    color: #fff;
+    border-top-left-radius: 1.50em;
+    border-bottom-left-radius: 1.50em;
+    border-top-right-radius: 1.50em;
+    border-bottom-right-radius: 1.50em;
+    transition: 0.5s ease;
+}
+.btn2:hover{
+    background-color: #183817;
+}
+.content img{
+    height: 50%;
+    width: 35%;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
